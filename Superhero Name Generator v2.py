@@ -114,7 +114,7 @@ class SuperheroNameGenerator:
             colour = colour.capitalize()
             
         # Update output string
-        result_text = f"You are the {adjective} {colour} {animal}!"
+        result_text = f"You are the {adj} {colour} {animal}!"
         self.lbl_result.config(text=result_text)
         
         # Saves the result to a text file, NEW CODE
